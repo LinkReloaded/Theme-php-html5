@@ -1,0 +1,57 @@
+/** Repetir cajas **/
+.contenedor-repeat {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+    padding: 0px 15px;
+}
+
+.contenedor-repeat .item {
+    background-color: red;
+    height: 150px;
+}
+
+/** Maquetado por fracciones **/
+.contenedor-fracciones {
+    display: grid;
+    grid-template-columns:  4fr 7fr;
+    grid-gap: 15px;
+    padding: 0px 15px;
+}
+
+.contenedor-fracciones .fraccion-4, .fraccion-7 {
+    background-color: red;
+    height: 300px;
+}
+
+/** Maquetado por columnas y filas **/
+
+.columnas-y-filas {
+    display: grid;
+    height: 600px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 110px 1fr 100px;
+    grid-gap: 15px;
+    padding: 0px 15px;
+}
+
+.columnas-y-filas div {
+    background-color: red;
+    display: table;
+    height: 100%;
+}
+
+.columnas-y-filas .header {
+    grid-column-start:  1;
+    grid-column-end: 3;
+}
+
+.columnas-y-filas .footer {
+    grid-column-start:  1;
+    grid-column-end:  3;
+}
+.columnas-y-filas h3 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* *****************************************************************
+Project Name: Formulario 
+Author: 4Sale
+Author URL: http://www.4sale.cl
+Version:MARK-V | 20160302
+Producer: LinkReloaded.net
+****************************************************************** */
+#shadowBoxHome img { display: block; height: auto; width: 100%; }
+
+@media (max-width:767px) {}
+@media (min-width:768px) and (max-width:979px) {}
